@@ -1,0 +1,46 @@
+.nav {
+    background-color:rgb(59, 55, 55);
+    padding:20px;
+    font-style:italic;
+}
+.nav a {
+    color:rgb(252, 255, 255);
+}
+
+.nav a:hover {
+    color:rgb(172, 155, 155);
+    opacity:0.7;
+}
+
+.nav-item {
+    margin-left:30px;
+}
+
+.contain {
+    background-image:url('image/book1.jpg');
+    background-size:cover;
+}
+
+.contain h1 {
+    padding:90px 20px;
+    font-size:130px;
+    color:white;
+}
+
+.movie-title,.comic-title,.soccer-title {
+    background-color:whitesmoke;
+    font-family: 'Caveat', cursive;
+}
+
+.movie-title h1,.comic-title h1,.soccer-title h1 {
+    margin-top:30px;
+    padding:20px;
+    font-size:70px;
+}
+
+.footer {
+    margin-top:20px;
+    padding:40px;
+    background-color:black;
+    text-align:center;
+}

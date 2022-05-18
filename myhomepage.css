@@ -1,0 +1,110 @@
+.nav {
+    background-color:rgb(59, 55, 55);
+    padding:20px;
+    font-style:italic;
+}
+.nav a {
+    color:rgb(252, 255, 255);
+}
+
+.nav a:hover {
+    color:rgb(172, 155, 155);
+    opacity:0.7;
+}
+
+.nav-item {
+    margin-left:30px;
+}
+
+.contain {
+    text-align:center;
+    padding:90px;
+    background-image: url("image/background2.png");
+    background-size:cover;
+
+}
+
+
+.contain p {
+    width:100%;
+    font-size:150px;
+    font-family: fantasy;
+}
+.contain h2 {
+    width:100%;
+    font-size:90px;
+    font-family: fantasy;
+}
+
+.introduce {
+    margin:50px 0;
+}
+
+.water {
+    float:left;
+}
+
+.sign h1{
+    width:100%;
+    font-size:100px;
+    position:relative;
+    top:70px;
+    font-family: cursive;
+    text-align:center;
+}
+
+.statement {
+    width:100%;
+    float:left;
+    padding:50px;
+    text-align:center;
+    padding-bottom:100px;
+    display:block;
+    position: relative;
+    z-index:1;
+
+}
+
+.statement:after {
+    content:"";
+    background-image:url('image/water6.jpeg');
+    background-position:center;
+    background-size:cover;
+    opacity:0.4;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+    z-index: -1;
+    width:93.5%;
+    margin:0 auto;
+}
+.statement a:link {
+    color:black;
+}
+
+.statement a:visited {
+    color:rgba(49, 147, 192, 0.8);
+}
+
+
+.statement p {
+    font-size:30px;
+    font-family: 'YuGothic';
+}
+  
+.slider {
+    margin-top:30px;
+}
+
+.table {
+    text-align:center;
+    line-height:40px;
+}
+
+.footer {
+    padding:40px;
+    background-color:black;
+    text-align:center;
+}

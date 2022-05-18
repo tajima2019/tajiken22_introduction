@@ -1,0 +1,91 @@
+.nav {
+    background-color:rgb(59, 55, 55);
+    padding:20px;
+    font-style:italic;
+}
+.nav a {
+    color:rgb(252, 255, 255);
+}
+
+.nav a:hover {
+    color:rgb(172, 155, 155);
+    opacity:0.7;
+}
+
+.nav-item {
+    margin-left:30px;
+}
+
+.contain {
+    font-family:"STKaiti", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+    display:block;
+    position: relative;
+    z-index:1;
+}
+
+
+.contain:after {
+    content:"";
+    background-image:url('image/nagoya2.png');
+    background-position:center;
+    background-size:cover;
+    opacity:0.3;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    position:absolute;
+    z-index: -1;
+}
+
+
+.contain h1{
+    font-size:110px;
+    padding:100px 0;
+    padding-bottom:120px;
+}
+
+.cross {
+    margin:120px 0;
+    text-align:center;
+}
+
+.carousel {
+    width:50%;
+    padding:10px;
+    float:left;
+}
+
+.d-block {
+    height:400px;
+}
+
+.str {
+    background-color:gray;
+    margin-top:50px;
+    text-align:center;
+}
+.str h1 {
+    font-size:70px;
+    font-family:monospace;
+}
+
+.contents{
+    font-size:20px;
+    text-align:center;
+    padding:40px 120px;
+}
+
+.char h3{
+    text-align:center;
+    font-size:90px;
+    font-weight:bold;
+}
+
+
+.footer {
+    padding:40px;
+    background-color:black;
+    text-align:center;
+}
+
